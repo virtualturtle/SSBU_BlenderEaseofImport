@@ -27,6 +27,7 @@ bpy.ops.object.select_pattern(pattern="*FLIP*")
 bpy.ops.object.select_pattern(pattern="*Bound*")
 bpy.ops.object.select_pattern(pattern="*Down*")
 bpy.ops.object.select_pattern(pattern="*Final*")
+bpy.ops.object.select_pattern(pattern="*Result*")
 #Move to another Layer
 bpy.ops.object.move_to_layer(layers=(False, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False))
 bpy.context.scene.layers[1] = True
